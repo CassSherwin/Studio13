@@ -1,0 +1,307 @@
+
+body {
+    background-image: url("pinkhair.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding-top: 3%;
+    cursor: url(icon.jpg),auto;	
+  }
+
+  .contactme {
+    background-image: url("pinkheadphones.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    
+  }
+
+.contact {
+    padding-top: 1%;
+    text-align: center;
+    margin-left: 70%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+  .title  {
+      font-family: cursive;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: lightblue;
+      font-size: 80px;
+  }
+.text {
+    padding-top: 25%;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 75px;
+    font-family: sans-serif;
+
+}
+.maintext {
+    padding-top: 25%;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: lightblue;
+    font-size: 75px;
+    font-family: sans-serif;
+    margin-right: 85%;
+}
+.nav-link {
+    color: lightblue;
+    font-weight: 700;
+    text-shadow: grey;
+    font-size: 24px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.center {
+    padding-left: 50%;
+}
+.conme {
+    color: deeppink;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: deeppink;
+  }
+  .contitle {
+    font-family: cursive;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: deeppink;
+
+
+}
+.conbook {
+    color: white;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
+}
+.cellnum {
+    color: black;
+    font-size: 25px;
+    margin-top: 0px;
+}
+.loc {
+    color: black;
+    font-size: 25px;
+}
+.loco  {
+    font-family: cursive;
+    font-size: 27px;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: deeppink;
+}
+.book {
+    background-image: url("BOWIEQUOTE.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+      /* Resize the background image to cover the entire container */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+}
+.about {
+    background-image: url("carrie.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding-top: 3%;
+  }
+
+.aboutme {
+    color: aqua;
+}
+.abouttitle {
+    font-family: cursive;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: aqua;
+}
+.mo {
+    font-size: 60px;
+    color: aqua;
+    width: 600px;
+    height: 600px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 1%;
+    margin-top: 3%;
+    line-height: 2px;
+    
+}
+h5 {
+    color: aqua;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
+}
+.mebook {
+    color: white;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
+    background: black;
+    width: 25%;
+    align-self: center;
+    margin-top: 20px;
+}
+.fun {
+    color: aqua;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: whitesmoke;
+}
+.serve {
+    background-image: url("rainbowhair.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding-top: 3%;
+  }
+  .sl {
+    font-size: 75px;
+    color: black;
+    width: 1200px;
+    height: 850px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkgreen;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /*background-color: rgba(248, 248, 255, 0.3);*/
+    margin-right: 5%;
+    font-weight: bolder;
+}
+.list {
+    color: black;
+    -webkit-text-stroke-width: 1x;
+    -webkit-text-stroke-color: cyan;
+    font-weight: bolder;
+}
+
+.list h6 {
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1x;
+    -webkit-text-stroke-color: magenta;
+}
+.servbook {
+    color: cyan;
+}
+.galbod {
+    background-color: purple;
+    background-image: none;
+}
+.bookbuttondiv {
+    margin-left:80%;
+    margin-top: 40%;
+}
+.squarelink {
+    color: white;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
+    background: black;
+    width: 25%;
+    align-self: center;
+}
+.servebook {
+    margin-top: 20px;
+    margin-left: 41%;
+}
+.scrolldiv img{
+margin-top: 5%;
+margin-left: 25%;
+border: 5px solid black;
+}
+.iconimg {
+    width: 60px;
+    height: 60px;
+    padding-right: 3px;
+}
+.am {
+    font-size: 17px;
+}
+
+
+    
+/* For size adjustments*/
+
+@media all and (max-width: 768px) {
+    .container, body, .contactme{
+        width:100%;
+        height: 100%;
+        background-image: none;
+        background-color: purple;
+    }
+    .maintext, .servbook, .contact, .mo, .scrolldiv, .revdiv
+    {
+        left:25%;
+        top:25%;
+        position:absolute;
+        width:50%;
+        text-align:center;
+    }
+    .maintext, .servbook, .contact, .mo, .scrolldiv, .revdiv {
+        text-align:center;
+         display: block;
+        margin: 0 auto;
+    }
+    .contact {
+        height: 40%;
+        width: 40%;
+    }
+    .contact, .mo {
+        margin-right: 10%;
+        padding-top: 5%;
+}
+.bookbuttondiv, .bookbutton  {
+    margin-bottom: 2%;
+}
+.servebook {
+    margin-top: 98%;
+}
+}
+@media all and (max-width:640px){
+    .container, body, .contactme{
+        width:100%;
+        height: 100%;
+        background-image: none;
+        background-color: purple;
+    }
+    .maintext, .servbook, .contact, .mo, .scrolldiv, .revdiv
+    {
+        width:50%;
+        height:auto;
+        display:inline-block;
+        text-align:center;
+        margin: 0 auto;
+    }
+    .maintext, .servbook, .contact, .mo, .scrolldiv, .revdiv{
+        text-align:center;
+         display: block;
+         margin: 0 auto;
+    }
+    .scrolldiv, .contact {
+        height: 40%;
+        width: 40%;
+    }
+    .contact {
+        padding-top: 5%;
+        margin-right: 10%;
+}
+.mo {
+    height: 65%;
+    width: 65%;
+    padding-top: 10%;
+    padding-right: 10%;
+    background: none;
+}
+.bookbuttondiv, .bookbutton   {
+    margin-bottom: 2%;
+}
+.revdiv {
+    margin-right: 50%;
+}
+
+.servebook {
+    margin-top: 1200px;
+}
