@@ -118,21 +118,7 @@ body {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: aqua;
 }
-.mo {
-    font-size: 60px;
-    color: aqua;
-    width: 600px;
-    height: 600px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-left: 1%;
-    margin-top: 3%;
-    line-height: 2px;
-    
-}
+
 h5 {
     color: aqua;
     -webkit-text-stroke-width: .5px;
@@ -184,7 +170,7 @@ h5 {
     -webkit-text-stroke-width: 1x;
     -webkit-text-stroke-color: magenta;
 }
-.servbook {
+.servbook, .reviewbook {
     color: cyan;
 }
 .galbod {
@@ -203,9 +189,9 @@ h5 {
     width: 25%;
     align-self: center;
 }
-.servebook {
+.servebook, .reviewbook {
     margin-top: 20px;
-    margin-left: 41%;
+    margin-left: 38%;
 }
 .scrolldiv img{
 margin-top: 5%;
@@ -220,19 +206,93 @@ border: 5px solid black;
 .am {
     font-size: 17px;
 }
+.mo {
+    font-size: 60px;
+    color: aqua;
+    width: 600px;
+    height: 600px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 2px;
+    margin-top: 3%;
+    line-height: 2px;  
+}
+.covidbody {
+    background-image: url("db.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+      /* Resize the background image to cover the entire container */
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+
+
+.coviddiv {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+    padding-top: 5%;
+    background-size: cover;
+    width: 100%;
+   
+}
+.covidtext {
+    align-items: center;
+    width: 95%;
+    color: black;
+    display: inline;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;   
+}
+.covidtext li{
+        background-color: rgba(211,211,211,0.5);
+}
+.covidbody  {
+    background-color: rgba(211,211,211,0.5);
+}
+.covidheader {
+    position: relative;
+}
+
+.coviddropdown {
+    position: fixed;
+    top:0;
+    left:0;
+}
+.covidbutton {
+    color: pink;
+}
+.covidbutton:hover {
+    color: lightblue;
+}
+.covidbutton:visited {
+    color: lightpink;
+}
+.dropbox {
+    background-color: lightgray;
+}
+.droptext {
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: lightpink;
+font-family: sans-serif;
+color:black;
+}
+.droptextmain {
+ font-size: large;
+}
 
 
     
-/* For size adjustments*/
+/* For size adjustments
 
 @media all and (max-width: 768px) {
+    html, body {min-height: 100%;}
     .container, body, .contactme{
         width:100%;
         height: 100%;
-        background-image: none;
-        background-color: purple;
     }
-    .maintext, .servbook, .contact, .mo, .scrolldiv, .revdiv
+    .maintext, .servbook, .contact, .mo, 
     {
         left:25%;
         top:25%;
@@ -240,7 +300,7 @@ border: 5px solid black;
         width:50%;
         text-align:center;
     }
-    .maintext, .servbook, .contact, .mo, .scrolldiv, .revdiv {
+    .maintext, .servbook, .contact, .mo, {
         text-align:center;
          display: block;
         margin: 0 auto;
@@ -253,21 +313,37 @@ border: 5px solid black;
         margin-right: 10%;
         padding-top: 5%;
 }
-.bookbuttondiv, .bookbutton  {
+.bookbuttondiv, .bookbutton,  {
     margin-bottom: 2%;
 }
-.servebook {
-    margin-top: 98%;
+*/
+/*
+.mainbody {
+    background-image: url("pinkhair.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+ /*   background-repeat: no-repeat; /* Do not repeat the image 
+    background-size: cover; /* Resize the background image to cover the entire container 
+    padding-top: 3%;
+    height: 100%;
+    }
+    .revbody {
+        position: relative;
+        max-width:100%;
+        min-width: 100%;
+    }
+.scrolldiv, .revbook {
+
 }
+
+
 }
 @media all and (max-width:640px){
+    html, body {min-height: 100%;}
     .container, body, .contactme{
         width:100%;
         height: 100%;
-        background-image: none;
-        background-color: purple;
     }
-    .maintext, .servbook, .contact, .mo, .scrolldiv, .revdiv
+    .maintext, .servbook, .contact, .mo, 
     {
         width:50%;
         height:auto;
@@ -275,12 +351,12 @@ border: 5px solid black;
         text-align:center;
         margin: 0 auto;
     }
-    .maintext, .servbook, .contact, .mo, .scrolldiv, .revdiv{
+    .maintext, .servbook, .contact, .mo, {
         text-align:center;
          display: block;
          margin: 0 auto;
     }
-    .scrolldiv, .contact {
+    .contact {
         height: 40%;
         width: 40%;
     }
@@ -295,13 +371,231 @@ border: 5px solid black;
     padding-right: 10%;
     background: none;
 }
-.bookbuttondiv, .bookbutton   {
+.bookbuttondiv, .bookbutton,   {
     margin-bottom: 2%;
 }
-.revdiv {
-    margin-right: 50%;
+
+
+
+.mainbody {
+background-image: url("pinkhair.jpg");
+background-color: #cccccc; /* Used if the image is unavailable 
+background-repeat: no-repeat; /* Do not repeat the image 
+background-size: ; /* Resize the background image to cover the entire container 
+padding-top: 3%;
+}
+.revbody 
+    {min-height: 100%;}
+
+.scrolldiv, .revbook {
+
 }
 
-.servebook {
-    margin-top: 1200px;
+} 
+*/
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    body {
+    max-width: 100%;
+    height: auto;
+    }
+    .mainbody {
+    background: url('pinkhair.jpg') no-repeat center fixed;     
+    background-size: cover;
+    }
+    .about {
+        background: url('carrie.jpg') no-repeat center fixed;     
+        background-size: cover;
+    }
+    .revbody {
+        background: url('rainbowhair.jpg') no-repeat center fixed;     
+        background-size: cover;
+            }
+    .contactme {
+        background: url('pinkheadphones.jpg') no-repeat center fixed;     
+        background-size: cover;
+            }
+    .maintext {
+        margin-left: 25%;
+    }
+    .mo {
+        max-width: 80%;
+        margin-left: 8%;
+    } 
+    .contact {
+        margin-left: 250px; 
+ }
+ .loc {
+     color: lightgray;
+     -webkit-text-stroke-width: .5px;
+     -webkit-text-stroke-color: lightgray;
+ }
+
+ .revdiv {
+ 
+    
+}
+ .scrolldiv {
+    max-width: 98%;
+    width: auto;
+    overflow-x: visible;
+    padding-right: 500px; 
+    margin-right: -500px; 
+ }
+ .scrolldiv img {
+     margin-left: 1px;
+ }
+ .dropbox {
+     width: 500px;
+ }
+ .dropbox > a {
+    white-space: normal;
+ }
+
+}
+/*// Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    body {
+        max-width: 100%;
+        height: auto;
+        }
+     .mainbody {
+        background: url('pinkhair.jpg') no-repeat center fixed;     
+        background-size: cover;
+            }
+     .about {
+        background: url('carrie.jpg') no-repeat center fixed;     
+        background-size: cover;
+            }
+     .revbody {
+        background: url('rainbowhair.jpg') no-repeat center fixed;     
+        background-size: cover;
+            }
+    .contactme {
+        background: url('pinkheadphones.jpg') no-repeat center fixed;     
+        background-size: cover;
+            }  
+    .maintext {
+        margin-left: 25%;
+            }   
+    .mo {
+        max-width: 80%;
+    } 
+    .mebook {
+        margin-bottom: 2%;
+    }
+    .contact {
+        margin-left: 250px; 
+ }
+ .loc {
+    color: lightgray;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: lightgray;
+}
+.revdiv {
+    
+    
+}
+ .scrolldiv {
+    max-width: 98%;
+    width: auto;
+    overflow-x: visible;
+    padding-right: 700px; 
+    margin-right: -700px; 
+ }
+ .scrolldiv img {
+    margin-left: 1px;
+    width: auto;
+}
+.dropbox {
+    width: 500px;
+}
+.dropbox > a {
+   white-space: normal;
+}
+ }
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+    body {
+        max-width: 100%;
+        height: auto;
+        }
+    .mainbody {
+        background: url('pinkhair.jpg') no-repeat center fixed;     
+        background-size: cover;
+            }
+    .about {
+        background: url('carrie.jpg') no-repeat center fixed;     
+        background-size: cover;
+            }
+    .revbody {
+        background: url('rainbowhair.jpg') no-repeat center fixed;     
+        background-size: cover;
+                    }
+    .contactme {
+        background: url('pinkheadphones.jpg') no-repeat center fixed;     
+        background-size: cover;
+                    }
+    .loc {
+        color: lightgray;
+        -webkit-text-stroke-width: .5px;
+        -webkit-text-stroke-color: lightgray;
+                    }
+    .revdiv {
+        
+                        
+                    }
+    .scrolldiv {
+        max-width: 98%;
+        width: auto;
+        overflow-x: visible;
+        padding-right: 400px; 
+        margin-right: -400px;  
+ }
+ .scrolldiv img {
+    width: auto;
+}
+.dropbox {
+    width: 500px;
+}
+.dropbox > a {
+   white-space: normal;
+}
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+    body {
+        max-width: 100%;
+        height: auto;
+        }
+        .mainbody {
+            background: url('pinkhair.jpg') no-repeat center fixed;     
+            background-size: cover;
+            }
+    .about {
+             background: url('carrie.jpg') no-repeat center fixed;     
+            background-size: cover;
+            }
+    .revbody {
+            background: url('rainbowhair.jpg') no-repeat center fixed;     
+            background-size: cover;
+                    }
+    .contactme {
+            background: url('pinkheadphones.jpg') no-repeat center fixed;     
+            background-size: cover;
+                            }
+                            .scrolldiv {
+                                max-width: 98%;
+                                width: auto;
+                                overflow-x: visible;
+                                padding-right: 100px; 
+                                margin-right: -100px;  
+                         }
+                         .scrolldiv img {
+                            width: auto;
+                        }
 }
